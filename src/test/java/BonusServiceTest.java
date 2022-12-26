@@ -39,8 +39,8 @@ public class BonusServiceTest {
         long expected = 0;
         long actual = service.calculate(amount, registered);
 
-    assertEquals(expected, actual);
-}
+        assertEquals(expected, actual);
+    }
 
     @org.junit.jupiter.api.Test
     void shouldCalculateForUnregisteredAndUnderLimit() {
